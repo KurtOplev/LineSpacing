@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LineSpacing.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <!--Samsung SM-A202F-->
+            <!--Text="EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, eeeeee,"-->
+            <!--Samsung SM-G998B-->
+            <!--Text="EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg,"-->
+
+            <!--Label from my app - LineHeight="1.3"-->
+            <Label x:Name="Label_Text_4_myapp_Header"
+                FontSize="18"
+                HorizontalTextAlignment="Center"                
+                Text="Font = 3-mundial-light-tty.ttf - LineHeight=1.3"
+                />
+            <Label x:Name="Label_Text_4_myapp"
+                HorizontalTextAlignment="Center"                
+                Margin="5"
+                LineHeight="1.3"
+                LineBreakMode="WordWrap"                                        
+
+                FontFamily="Mundial Light"
+                FontSize="15"
+                FontAttributes="None"
+                Text="EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg,"
+                SemanticProperties.Description="Egg, eggs and even more eggs"                  
+                />
+
+            <!--Only difference is Font-->
+            <Label x:Name="Label_Text_4_Header"
+                FontSize="18"
+                HorizontalTextAlignment="Center"                
+                Text="Font = OpenSans-Regular.ttf - LineHeight=1.3"
+                />
+            <Label x:Name="Label_Text_4"
+                HorizontalTextAlignment="Center"                
+                Margin="15"
+                LineHeight="1.3"
+                LineBreakMode="WordWrap"                                        
+
+                FontFamily="OpenSansRegular"
+                FontSize="15"
+                FontAttributes="None"
+                Text="EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg,"
+                SemanticProperties.Description="Egg, eggs and even more eggs"                  
+                />
+
+            <!--Label from my app - LineHeight="1.0"-->
+            <Label x:Name="Label_Text_4_myapp_1_Header"
+                FontSize="18"
+                HorizontalTextAlignment="Center"                
+                Text="Font = 3-mundial-light-tty.ttf - LineHeight=1.0"
+                />
+            <Label x:Name="Label_Text_4_myapp_1"
+                HorizontalTextAlignment="Center"                
+                Margin="5"
+                LineHeight="1.0"
+                LineBreakMode="WordWrap"                                        
+
+                FontFamily="Mundial Light"
+                FontSize="15"
+                FontAttributes="None"
+                Text="EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg, EEeegg, eeeeee, EEeegg, eeeeee, EEeegg,"
+                SemanticProperties.Description="Egg, eggs and even more eggs"                  
+                />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
