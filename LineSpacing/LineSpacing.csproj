@@ -57,26 +57,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Fonts\1-mundial-hair-italic-tty.ttf" />
-	  <None Remove="Resources\Fonts\1-mundial-hair-tty.ttf" />
-	  <None Remove="Resources\Fonts\2-mundial-thin-italic-tty.ttf" />
-	  <None Remove="Resources\Fonts\2-mundial-thin-tty.ttf" />
-	  <None Remove="Resources\Fonts\3-mundial-light-italic-tty.ttf" />
 	  <None Remove="Resources\Fonts\3-mundial-light-tty.ttf" />
-	  <None Remove="Resources\Fonts\4-mundial-regular-italic-tty.ttf" />
-	  <None Remove="Resources\Fonts\4-mundial-regular-tty.ttf" />
-	  <None Remove="Resources\Fonts\5-mundial-demibold-italic-tty.ttf" />
-	  <None Remove="Resources\Fonts\5-mundial-demibold-tty.ttf" />
-	  <None Remove="Resources\Fonts\6-mundial-bold-italic-tty.ttf" />
-	  <None Remove="Resources\Fonts\6-mundial-bold-tty.ttf" />
-	  <None Remove="Resources\Fonts\7-mundial-black-italic-tty.ttf" />
-	  <None Remove="Resources\Fonts\7-mundial-black-tty.ttf" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Update="Microsoft.Maui.Controls" Version="8.0.80" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Update="Microsoft.Maui.Controls.Compatibility" Version="8.0.80" />
 	</ItemGroup>
 
 </Project>
